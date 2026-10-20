@@ -1,0 +1,12 @@
+{
+  "name": "gt1-mods",
+  "description": "Pinned, reviewed Claude Code mods for the GT1 organization. Update only after reading the diff.",
+  "owner": { "name": "GT1" },
+  "plugins": [
+    {
+      "name": "cache-tax",
+      "source": "./cache-tax",
+      "description": "cache-tax 2.2.1 pinned at karanb192/cache-tax@06cac47 + local patch (sliding 3h keepwarm, compaction instead of a cold re-write) + per-user summary folder."
+    }
+  ]
+}
